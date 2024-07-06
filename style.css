@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #222222;
+    color: white;
+}
+
+.background-aglaya{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+}
+
+.continer{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    /* background-image: url(Assets/Elements/background.svg); */
+}
+
+.avatar-tarjet-section{
+    height: 100vh;
+    width: 35%;
+    /* display: flex; */
+    align-items: center;
+}
+
+.jesus-avatar-image{
+    width: 60%;
+    display: block;
+    margin: auto;
+}
+
+.aglaya-icon-image{
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+.continer-avatar-aglaya{
+    padding: 20rem 0rem;
+    /* background-image: url(Assets/Elements/stain-red.svg); */
+    background-color: #AF364D;
+    height: 100%;
+}
+
+.continer-phone-data{
+    display: flex;
+}
+
+.continer-correo-data{
+    display: flex;
+}
+
+.continer-location-data{
+    display: flex;
+}
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}   
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.tittle{
+    font-size: 17rem;
+}
+
+.subtitle{
+    font-size: 10rem;
+}
+
+.text{
+    font-size: 2rem;
+}
+
+.data-contact-name{
+    padding: 10rem 5rem;
+    max-height: 100%;
+}
+
+.contact-data-section{
+    height: 100%;
+}
