@@ -9,11 +9,21 @@ body{
     color: white;
 }
 
+.stain-avatar-aglaya{
+    position: fixed;
+    z-index: -1;
+    width: 100% ;
+    right:47rem;
+    top: -30rem;
+}
+
+
+
 .background-aglaya{
     position: absolute;
     width: 100vw;
     height: 100vh;
-    z-index: -1;
+    z-index: -2;
 }
 
 .continer{
@@ -43,9 +53,9 @@ body{
 }
 
 .continer-avatar-aglaya{
-    padding: 20rem 0rem;
+    padding: 7rem 0rem;
     /* background-image: url(Assets/Elements/stain-red.svg); */
-    background-color: #AF364D;
+    /* background-color: #AF364D; */
     height: 100%;
 }
 
@@ -86,11 +96,11 @@ body{
 }
 
 .tittle{
-    font-size: 17rem;
+    font-size: 6rem;
 }
 
 .subtitle{
-    font-size: 10rem;
+    font-size: 3.6rem;
 }
 
 .text{
@@ -104,4 +114,20 @@ body{
 
 .contact-data-section{
     height: 100%;
+}
+
+.continer-data{
+    margin: 9rem 6rem;
+}
+
+.image-envelope{
+    margin-right: 1rem;
+}
+
+.image-location{
+    margin-right: 1rem;
+}
+
+.image-phone{
+    margin-right: 1rem;
 }
