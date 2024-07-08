@@ -4,49 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"><link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
-<body>
-    <header></header>
-    <section class="continer-all">
+<body style="background-image: url('assets/elements/background.svg'); color: white;">
+    <section class="continer-all" style="height: 70vh; width: 70%; max-height: 1000px; max-width: 1100px; margin: 5rem auto 0;">
         <div class="background-image">
-            <img class="background-aglaya" src="assets/background-2.svg" alt="">
+            <img class="background-aglaya" alt="" style="background-color: black; position: absolute; width: 1100px; height: 70vh; z-index: -1;">
         </div>
-        <div class="continer">
-            <div class="avatar-tarjet-section">
-                <div class="continer-avatar-aglaya">
-                    <img class="jesus-avatar-image" src="assets/avatar-jesus.svg" alt="Jesus Gonzalez">
-                    <img class="aglaya-icon-image" src="assets/aglaya-logo.svg" alt="">
+        <div class="continer" style="width: 100%; height: 100%; display: flex;">
+            <div class="avatar-tarjet-section" style="height: 100%; width: 35%; align-items: center;">
+                <div class="continer-avatar-aglaya" style="padding: 5rem 0; width: 100%; height: 100%;">
+                    <img class="jesus-avatar-image" src="assets/avatar-jesus.svg" alt="Jesus Gonzalez" style="width: 65%; display: block; margin: auto;">
+                    <img class="aglaya-icon-image" src="assets/aglaya-logo.svg" alt="" style="width: 50%; display: block; margin: auto;">
                 </div>
             </div>
-            <div class="contact-data-section">
-                    <div class="name-area">
-                        <h1 class="tittle poppins-extrabold">Jesús Gonzalez</h1>
-                        <h2 class="subtitle poppins-regular">Consultoria software</h2>
+            <div class="contact-data-section" style="padding: 6rem 0 0 7rem; height: 100%; width: 65%;">
+                <div class="name-area">
+                    <h1 class="tittle poppins-extrabold" style="font-size: 3.5rem;">Jesús Gonzalez</h1>
+                    <h2 class="subtitle poppins-regular" style="font-size: 2.2rem;">Consultoria software</h2>
+                </div>
+                <div class="data-contact" style="margin-top: 1rem;">
+                    <div class="continer-phone-data" style="display: flex; margin-top: 0.4rem;">
+                        <img class="image-phone" src="assets/phone-icon.svg" alt="" style="margin-right: 1rem; width: 2rem;">
+                        <p class="text poppins-regular" style="font-size: 1.3rem;">998-348-7207</p>
                     </div>
-                    <div class="data-contact">
-                        <div class="continer-phone-data">
-                            <img class="image-phone" src="assets/phone-icon.svg" alt="">
-                            <p class="text poppins-regular">998-348-7207</p>
-                        </div>
-                        <div class="continer-correo-data">
-                            <img class="image-envelope" src="assets/envelope-icon.svg" alt="">
-                            <p class="text poppins-regular">antonio.gonzalez@aglayainnovation.com</p>
-                        </div>
-                        <div class="continer-location-data">
-                            <img class="image-location" src="assets/location-icon.svg" alt="">
-                            <p class="text poppins-regular">av. Xel-ha, smz 25</p>
-                        </div>
+                    <div class="continer-correo-data" style="display: flex; margin-top: 0.4rem;">
+                        <img class="image-envelope" src="assets/envelope-icon.svg" alt="" style="margin-right: 1rem; width: 2rem;">
+                        <p class="text poppins-regular" style="font-size: 1.3rem;">antonio.gonzalez@aglayainnovation.com</p>
                     </div>
+                    <div class="continer-location-data" style="display: flex; margin-top: 0.4rem;">
+                        <img class="image-location" src="assets/location-icon.svg" alt="" style="margin-right: 1rem; width: 2rem;">
+                        <p class="text poppins-regular" style="font-size: 1.3rem;">av. Xel-ha, smz 25</p>
+                    </div>
+                </div>
             </div>
-        </div>
+        </div>
     </section>
-    <footer></footer>
 </body>
 </html>
