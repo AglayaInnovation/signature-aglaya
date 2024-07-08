@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: #222222;
+    background-image: url(assets/elements/background.svg);
     color: white;
 }
 
@@ -61,14 +61,17 @@ body{
 
 .continer-phone-data{
     display: flex;
+    margin-top: 0.4rem;
 }
 
 .continer-correo-data{
     display: flex;
+    margin-top: 0.4rem;
 }
 
 .continer-location-data{
     display: flex;
+    margin-top: 0.4rem;
 }
 
 .poppins-regular {
@@ -116,17 +119,21 @@ body{
 
 .image-envelope{
     margin-right: 1rem;
+    width: 2rem;
 }
 
 .image-location{
     margin-right: 1rem;
+    width: 2rem;
 }
 
 .image-phone{
     margin-right: 1rem;
+    width: 2rem;
 }
 
 .continer-all{
+
     height: 70vh;
     width: 70%;
     max-height: 1000px;
